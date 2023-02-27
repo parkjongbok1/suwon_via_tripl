@@ -50,17 +50,20 @@
   margin: 0 -36%;
   cursor: pointer;
 }
+.v_contents .visual_slider .slick-dots li.slick-active {
+  background: #e34375;
+}
 .v_contents .visual_slider .slick-dots li button {
   display: none;
 }
 .slick-prev {
-  right: 17.5%;
-  background: url("../image/v_p.png") no-repeat center center;
+  right: 8%;
+  background: url("../image/v_n.png") no-repeat center center;
   background-size: cover;
 }
 .slick-next {
-  right: 8%;
-  background: url("../image/v_n.png") no-repeat center center;
+  right: 17.5%;
+  background: url("../image/v_p.png") no-repeat center center;
   background-size: cover;
 }
 .visual_cont {

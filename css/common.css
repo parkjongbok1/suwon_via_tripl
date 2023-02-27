@@ -435,7 +435,7 @@ nav.header_bottom.active,
   transition-delay: 0.3s;
 
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #353535;
 }
 .header_bottom:hover .sub_cont {
@@ -446,7 +446,7 @@ nav.header_bottom.active,
   width: 100%;
   position: absolute;
   left: 50%;
-  top: -100%;
+  top: -110%;
   transform: translateX(-50%);
   z-index: 10;
   transition: 0.5s;
@@ -496,7 +496,7 @@ nav.header_bottom.active,
   display: block;
 
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #353535;
 }
 .sub_menu li .access-submenu li a:hover {
