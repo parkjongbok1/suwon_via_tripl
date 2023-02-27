@@ -1,0 +1,28 @@
+.sub {
+  /* height: 100vh; */
+}
+.sub_top {
+  width: 100%;
+  height: 50vh;
+  background: url("../image/sub/sub_bg.png") no-repeat center bottom;
+  background-size: cover;
+  margin-top: 19vh;
+  position: relative;
+
+  animation: load_bg 2s both;
+  animation-delay: 0.2s;
+}
+.sub_page {
+  width: 1300px;
+  max-width: 1300px;
+  margin: 100px auto 160px;
+}
+.sub_page img {
+  width: 100%;
+  font-size: 0;
+  object-fit: cover;
+  display: block;
+
+  animation: load_B_T 2s both;
+  animation-delay: 0.2s;
+}

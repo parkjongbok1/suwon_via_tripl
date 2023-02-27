@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>프로잭트명입니다</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sub.css" />
+
+    <meta property="og:image" content="../meta/thumb.jpg" />
+    <link rel="shortcut icon" href="../meta/favicon.ico" />
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scroll_event_class.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/tab.js"></script>
+
+    <script>
+      if (
+        navigator.userAgent.match(
+          /iPhone|iPad|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/
+        ) != null
+      ) {
+        top.location.href = "../mobile/"; //모바일용 인덱스파일을 띄어라
+      }
+    </script>
+  </head>
+  <body>
+    <!-- wrep -->
+    <div class="wrep">
+      <!-- header -->
+      <header class="header" id="common">
+        <div class="header_top">
+          <a href="customer.html" class="head_items head01">
+            <div class="item item01">
+              <img
+                src="image/head_icon01_on.png"
+                alt=""
+                class="icon icon01_on"
+              />
+              <img
+                src="image/head_icon01_off.png"
+                alt=""
+                class="icon icon01_off"
+              />
+            </div>
+
+            <div class="item item02">
+              <span>관심고객등록</span>
+
+              <nav>
+                <img
+                  src="image/head_icon02_on.png"
+                  alt=""
+                  class="icon icon02_on"
+                />
+                <img
+                  src="image/head_icon02_off.png"
+                  alt=""
+                  class="icon icon02_off"
+                />
+              </nav>
+            </div>
+          </a>
+
+          <h1 class="logo">
+            <a href="index.html"><img src="image/logo.png" alt="로고" /></a>
+          </h1>
+
+          <div class="head_items head02">
+            <img src="image/call.png" alt="" class="call" />
+
+            <div class="menu_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- bon_menu st -->
+        <nav role="navigation" class="header_bottom">
+          <ul class="access-menu">
+            <li class="menu_btn">
+              <a href="planning.html">사업안내</a>
+            </li>
+
+            <li class="menu_btn">
+              <a href="premium.html">특장점</a>
+            </li>
+
+            <li class="menu_btn">
+              <a href="floor.html">상업시설</a>
+            </li>
+
+            <li class="menu_btn">
+              <a href="contact.html">고객센터</a>
+            </li>
+
+            <li class="menu_btn">
+              <a href="customer.html">관심고객등록</a>
+            </li>
+          </ul>
+
+          <div class="sub_cont">
+            <ul class="sub_menu">
+              <li>
+                <ul class="access-submenu">
+                  <li><a href="planning.html">사업개요</a></li>
+                  <li><a href="brand.html">브랜드소개</a></li>
+                </ul>
+
+                <ul class="access-submenu">
+                  <li><a href="premium.html">프리미엄</a></li>
+                  <li><a href="location.html">입지환경</a></li>
+                </ul>
+
+                <ul class="access-submenu">
+                  <li><a href="floor.html">층별안내</a></li>
+                </ul>
+
+                <ul class="access-submenu">
+                  <li><a href="contact.html">오시는길</a></li>
+                  <li><a href="news.html">언론보도</a></li>
+                </ul>
+
+                <ul class="access-submenu">
+                  <li><a href="customer.html">관심고객등록</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- // bon_menu en -->
+      </header>
+
+      <main class="main">
+        <!-- sec01 visual -->
+        <section class="sec01 visual">
+          <div class="v_contents">
+            <div class="visual_slider">
+              <div><img src="image/visual_slider01.png" alt="" /></div>
+              <div><img src="image/visual_slider02.png" alt="" /></div>
+              <div><img src="image/visual_slider03.png" alt="" /></div>
+              <div><img src="image/visual_slider04.png" alt="" /></div>
+            </div>
+          </div>
+
+          <div class="visual_cont">
+            <div class="title">
+              <p>
+                수원아이파크시티에서<br />
+                <strong>비아트리플</strong>이 펼치는<br />
+                성공의 꽃길<span style="font-style: italic">!</span> 투자의
+                탄탄대로<span style="font-style: italic">!</span>
+              </p>
+
+              <h2>
+                <strong>핫한 거리</strong>를 만드는 <br />
+                <strong>핫한 살가</strong>가 옵니다
+              </h2>
+
+              <img src="image/v_logo.png" alt="" class="v_logo" />
+              <img src="image/v_open.png" alt="" class="v_open" />
+            </div>
+
+            <img src="image/v_item01.png" alt="" class="v_item v_item01" />
+            <img src="image/v_item02.png" alt="" class="v_item v_item02" />
+          </div>
+
+          <img src="image/v_point.png" alt="" class="v_point" />
+        </section>
+
+        <!-- sec02 premium -->
+        <section class="sec02 premium">
+          <div class="inner">
+            <div class="title">
+              <span class="ani-L t-delay0_2">
+                보고, 먹고, 사고, 배우고 즐기는 <br />
+                그 모든 행복의 거리가 탄생합니다.
+              </span>
+
+              <img
+                src="image/pr_title.png"
+                alt=""
+                class="pr_title ani-L t-delay0_3"
+              />
+
+              <p class="ani-L t-delay0_4">
+                수원아이파크시티에 없던 <br />
+                새로운 거리의 시작 <strong>비아트리플</strong>
+              </p>
+            </div>
+
+            <div class="options">
+              <div class="pr_desc active ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon01.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>Lifstyle Streel</h3>
+                    <p>카페거리, 학원가, 다이닝 등 다래로운</p>
+                    <p>상업공간을 만나는 <strong>생활밀착형 거리</strong></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pr_desc ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon02.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>Park Side</h3>
+                    <p>펫파크, 어린이공원, 그라운드골프장, 산책로</p>
+                    <p>
+                      잔디마당 등으로 이루어진 <strong>마중공원 바로 앞</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pr_desc ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon03.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>Rick back ground</h3>
+                    <p>수원아이파크시티,수원하늘채더퍼스트,공군관사,</p>
+                    <p>
+                      빌라 등 약 15,000새대의 <strong>풍부한 배후수요</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pr_desc ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon04.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>With Squaer</h3>
+                    <p>비아트리플 이스트와 웨스트 사이 여유와</p>
+                    <p>낭만이 펼쳐지는 <strong>분수광장을 품은 상가</strong></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pr_desc ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon05.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>Only One</h3>
+                    <p>수원아이파크시티 내에 위치한</p>
+                    <p>상업시설 용지의 <strong>탁월한 희수가치</strong></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pr_desc ani">
+                <div class="label">
+                  <div class="icon">
+                    <img src="image/pt_icon06.png" alt="" class="pt_icon" />
+                  </div>
+                  <div class="info">
+                    <h3>Open Design</h3>
+                    <p>마중공원, 분수광장, 메인도로면과 접해 있어</p>
+                    <p>노출도를 극대화한 <strong>4면 개방형 상가</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sec03 location -->
+        <section class="sec03 location">
+          <div class="lo_contents ani-O">
+            <div class="lo_l_cont">
+              <div class="title">
+                <span class="ani-L t-delay0_2">다 가진 수원아이파크시티에</span>
+                <h2 class="ani-L t-delay0_2">
+                  필요했던 단 하나<span style="font-style: italic">!</span>
+                </h2>
+                <div>
+                  <p class="ani-L t-delay0_2">
+                    핫한 입지의 상가를 넘어 365일 사람들이 모이는 거리,
+                  </p>
+                  <p class="ani-L t-delay0_3">
+                    상점마다 손님이 가득한 거리, 프리미엄을 만들고
+                  </p>
+                  <p class="ani-L t-delay0_4">
+                    키워가는 거리는 실패하지 않기에 핫플로 가득한 거리를 만들어
+                  </p>
+                  <p class="ani-L t-delay0_5">
+                    수원아이파크시티의 자랑이 되겠습니다.
+                  </p>
+                </div>
+              </div>
+
+              <ul class="lo_items">
+                <li
+                  class="item item01 ani t-delay0_1"
+                  data-image="image/location01.png"
+                >
+                  <h3>붐비게 될 거리</h3>
+                  <p>
+                    세류역 역세권, GTX-C(예정), 오산-<br />
+                    용인고속도로(예정) 등 프리미엄을<br />
+                    만드는 교통카치의 업그레이드로<br />
+                    더 많은 사람들로 붐비게 될 입지
+                  </p>
+                </li>
+
+                <li
+                  class="item item02 ani t-delay0_1"
+                  data-image="image/location02.png"
+                >
+                  <h3>몰리게 될 거리</h3>
+                  <p>
+                    수원아이파크시티 약 8,000 세대<br />
+                    수원하늘채더퍼스트 약 3,200 세대<br />
+                    공군관사, 빌라촌 포함 약 15,000 세대<br />
+                    발걸음이 몰리게 될 핫한 거리
+                  </p>
+                </li>
+
+                <li
+                  class="item item03 ani t-delay0_1"
+                  data-image="image/location03.png"
+                >
+                  <h3>들리게 될 거리</h3>
+                  <p>
+                    산책로, 잔디마당, 그라운드 골프장,<br />
+                    펫파크, 어린이 공원, 체육시설 등<br />
+                    약 6만4천㎡의 대단위 공원이<br />
+                    바로 앞에 있어 집객력 탁월
+                  </p>
+                </li>
+
+                <li
+                  class="item item04 ani t-delay0_1"
+                  data-image="image/location04.png"
+                >
+                  <h3>자랑이 될 거리</h3>
+                  <p>
+                    수원아이파크시티 내<br />
+                    상업시설용지에 짓는 대형상업시설로<br />
+                    입주민들의 라이프스타일<br />
+                    퀄리티를 높여줄 상징적 프로잭트
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <img
+              src="image/lo_point01.png"
+              alt=""
+              class="lo_point lo_point01 ani-T t-delay0_7"
+            />
+            <img
+              src="image/lo_point02.png"
+              alt=""
+              class="lo_point lo_point02"
+            />
+          </div>
+
+          <div class="lo_change_background lo_r_cont ani-R t-delay0_3"></div>
+        </section>
+
+        <!-- sec04 interest -->
+        <section class="sec04 interest">
+          <div class="contents ani-O t-delay0_1">
+            <div class="title">
+              <span class="ani-R t-delay0_2">
+                경리단길, 가로수길도 부럽지 않도록!<br />
+                당신의 투자가 성공의 꽃길만 걷도록!
+              </span>
+
+              <div class="point ani-R t-delay0_3">
+                <span></span>
+                <span></span>
+              </div>
+
+              <h2 class="ani-R t-delay0_4">
+                <strong class="sky">멋진 상가</strong>를 넘어<br />
+                <strong class="pink">핫한 거리</strong>를 만듭니다
+              </h2>
+            </div>
+
+            <a href="" class="link_btn ani-R t-delay0_5">
+              <strong>관심고객등록</strong>
+              바로가기
+            </a>
+
+            <img
+              src="image/v_point.png"
+              alt=""
+              class="int_point ani-O t-delay0_5"
+            />
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer ani t-delay0_3" id="common">
+        <div class="inner">
+          <img src="image/lo_point02.png" alt="" class="foot_point" />
+
+          <div class="desc">
+            <div class="item">
+              <img src="image/foot_logo.png" alt="" class="foot_logo" />
+              <img src="image/foot_t.png" alt="" class="foot_t" />
+            </div>
+
+            <div class="item">
+              <p>
+                ※본 사이트에 사용된 CG, 이미지컷은 소비자의 이해를 돕기 위해
+                제작된 것으로 실제와 다를 수 있습니다.
+              </p>
+              <p>
+                ※상기 지역도에 표기된 주변환경 및 개발게획 등은 개발사업 주체
+                또는 관계기관의 사정에 따라 변경될 수 있음을 유의하기시 바라며,
+                사업주체와는 무관함을 알려드립니다.
+              </p>
+              <p>
+                ※본 사이트는 편집 및 인쇄과정상 착오가 있을 수 있으니 게약시
+                문의 사항은 홍보관에서 확인하시기 바랍니다.
+              </p>
+              <p>
+                ※상기 사업개요는 건축심의 및 허가사항에 따라 변경 될 수
+                있습니다.
+              </p>
+            </div>
+
+            <h2>
+              Copyright(c) 2023
+              <span>수원 비아트리플 </span>
+              All Right Reserved.
+              <a target="_blank" href="http://dsrealad.co.kr/website/renew/"
+                >POWERED BY DASANREALAD</a
+              >
+              <a target="_blank" href="../board/adm">ADMIN</a>
+            </h2>
+          </div>
+
+          <div class="desc">
+            <img src="image/foot_item.png" alt="" class="foot_item" />
+            <img src="image/foot_call.png" alt="" class="foot_call" />
+          </div>
+        </div>
+      </footer>
+
+      <div class="site_map" id="#common">
+        <div class="inner">
+          <ul class="map_cont">
+            <li>
+              사업안내
+              <ul class="sub_map">
+                <li><a href="planning.html">사업개요</a></li>
+                <li><a href="brand.html">브랜드소개</a></li>
+              </ul>
+            </li>
+
+            <li>
+              특장점
+              <ul class="sub_map">
+                <li><a href="premium.html">프리미엄</a></li>
+                <li><a href="location.html">입지환경</a></li>
+              </ul>
+            </li>
+
+            <li>
+              상업시설
+              <ul class="sub_map">
+                <li><a href="floor.html">층별안내</a></li>
+              </ul>
+            </li>
+
+            <li>
+              고객센터
+              <ul class="sub_map">
+                <li><a href="contact.html">오시는길</a></li>
+                <li><a href="news.html">언론보도</a></li>
+              </ul>
+            </li>
+
+            <li>
+              관심고객등록
+              <ul class="sub_map">
+                <li><a href="customer.html">관심고객등록</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
