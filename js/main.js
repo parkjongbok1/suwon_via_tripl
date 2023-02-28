@@ -31,4 +31,12 @@ $(document).ready(function () {
   $(".lo_items .item").mouseleave(function () {
     $(".lo_change_background").css("background-image", "");
   });
+
+  // $(".lo_items .item").hover(function () {
+  //   $(".lo_items .item").removeClass("active");
+  //   $(this).addClass("active");
+
+  //   $(".lo_items .item.active + .lo_change_background").addClass("active");
+  //   $(this).removeClass("active");
+  // });
 });

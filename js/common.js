@@ -4,6 +4,7 @@ $(document).ready(function () {
   const delta = 5;
   const headerHeight = $(".header").outerHeight();
   const sec1_Height = $(".sec01").innerHeight();
+  const sub_Height = $(".sub").innerHeight();
 
   setInterval(function () {
     if (didScroll) {
@@ -26,8 +27,16 @@ $(document).ready(function () {
     // 이전 스크롤 보다 스크롤을 내였을때
     if (scrollTop > lastScrollTop && scrollTop > sec1_Height - headerHeight) {
       $(".header").addClass("sticky");
-
-      // 이전 스크롤 보다 스크롤을 올렸을때
+    } else {
+      if (scrollTop + $(window).innerHeight() < $(document).innerHeight()) {
+        $(".header").removeClass("sticky");
+      }
+    }
+    if (
+      scrollTop > lastScrollTop &&
+      scrollTop > sub_Height - headerHeight / 0.2
+    ) {
+      $(".header").addClass("sticky");
     } else {
       if (scrollTop + $(window).innerHeight() < $(document).innerHeight()) {
         $(".header").removeClass("sticky");
